@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New Say</title>
+<link rel="stylesheet" type="text/css" title="Default Styles" href="common.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type = "text/javascript" src='responsivevoice.js'></script>
+<script type = "text/javascript" src="common.js" ></script>
+
+
+</head>
+<body>
+
+
+	<table id="spelling-area" >
+		<tr>
+			<td>Total Number of Words : &nbsp; <input id="totalWordCount" type="text" ></td>
+		</tr>
+		
+		<tr>
+			<td >Number Words Spelled : &nbsp; <input id="spelledCount" type="text" ></td>
+		</tr>
+						  
+		<tr>
+			<td >Total Words Left : &nbsp; <input id="totalLeft" type="text" ></td>
+		</tr>
+		
+		
+		<tr>
+			<td style="padding-left: 100px;">
+				<input id="outputWordTxt" type="text" style="font-size: xx-large;">
+			</td>
+					     
+						 
+		</tr>
+		
+		
+		<tr>
+			<td style="padding-left: 125px;" >
+			    <div style="margin:20px">
+					<button id="previousBtn" class="w3-btn" type="button" >Previous</button>
+					<button id="sayBtn" class="w3-btn" type="button" >Say</button>
+					<button id="showBtn"class="w3-btn" type="button" >Show</button>
+					<button id="nextBtn"class="w3-btn" type="button" >Next</button>
+				</div>
+
+			</td>
+		</tr>
+		
+		
+	    <tr>
+			<td style="padding-left: 210px;" >
+				<div style="margin:20px">
+					<button id="flashBtn"class="w3-btn" type="button" >Flash</button>
+				</div>
+			</td>
+		</tr>
+		
+	</table>
+					
+				
+	<table id='enter-area'>
+	    <tr>
+			<td style="padding-left: 60px;padding-top:30px;"><textarea id="inputWordsTxt" col="10" rows="30"></textarea></td>
+		</tr>
+		<tr>
+			<td style="padding: 20px 20px 20px 110px;;"><button class="w3-btn" type="button" id="enterBtn"  >Enter</button></td>
+		</tr>
+	</table>
+
+
+	
+
+</body>
+</html> 

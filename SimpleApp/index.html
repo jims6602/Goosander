@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<!--
+Developer Name: John J. Cusey
+Date: 09/30/2017
+-->
+<head>
+<title>Goosander 2</title>
+</head>
+<body>
+
+<script type="text/javascript"  src="index.js"></script>
+
+	<h1>Download File List</h1>
+	<div>
+		<div>
+			<textarea id="input-word-list" rows="4" cols="100"></textarea>
+		</div>
+
+        <br>
+		<div>
+			<button type="button" onclick="download()" >Download</button>
+		</div>
+	</div>
+
+	<h1>Spelling Test</h1>
+	<br>
+    <div>
+		<b>Message: </b><p id="message-answer"> </p>
+	</div>
+	
+	<br>
+	<div>
+		<b>Count: </b><p id="message-count"> </p>
+	</div>
+
+	<br>
+		<input type="text" id="answer" style="font-size: 45px;" >
+		
+	<br>
+	<br>
+	<div style="display:inline-block;" >
+		<button type="button" onclick="previous()" >Previous</button>
+<button type="button" onclick="sayDefine()" >Say Definition</button>
+<button type="button" onclick="sayWordUsage()" >Say Word Usage</button>
+			<button type="button" onclick="say()" >Say</button>
+			<button type="button" onclick="check()" >Check</button>
+
+			<button type="button" onclick="showDefine()" >Show Definition</button>
+	<button type="button" onclick="showWordUsage()" >Show Word Usage</button>
+			<button type="button" onclick="show()" >Show</button>
+			<button type="button" onclick="next()" >Next</button>
+	</div>
+
+	<br>
+	<br>
+	<div>
+		<b>Word: </b><p id="word"> </p>
+		<b>Part of Speech: </b><p id="part-of-speech"> </p>
+		<b>Definition: </b><p id="definition"> </p>
+		<b>Word Usage: </b><p id="word-usage"> </p>
+		<b>Total Try Count: </b><p id="total-try-count"> </p>
+		<b>Right Count: </b><p id="right-count"> </p>
+	</div>
+
+</body>
+</html>

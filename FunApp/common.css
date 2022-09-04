@@ -1,0 +1,71 @@
+
+.w3schools-logo{
+   font-family: fontawesome;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 37px;
+    letter-spacing: 3px;
+    display: block;
+    color:#4CAF50
+    
+}
+.w3-right{
+	float:right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.vertical-menu {
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.w3-btn{
+	background-color: #4CAF50;
+	font-size: 12px;
+	padding: 10px 24px;
+	color: white;
+}
+.w3-btn:hover {
+    background-color: #2874A6  ;
+}
+
+
